@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "L_VILA",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n      23      4    106      2      24 get_eval@13-36@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\eval\\eval_gpt_review.py\n      14      3    101      1      14 parse_score@39-52@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\eval\\eval_gpt_review.py\n      22      4    102      2      23 get_eval@11-33@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\eval\\eval_gpt_review_bench.py\n      14      3    101      1      14 parse_score@36-49@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\eval\\eval_gpt_review_bench.py\n      22      4    102      2      23 get_eval@11-33@E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\eval\\eval_gpt_review_visual.py\n      14      3    101      "
+  }
+}

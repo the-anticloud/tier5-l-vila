@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_VILA",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 4.0227272727272725
+    },
+    "complexity_grade": "A",
+    "complexity_score": 4.0227272727272725,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\predict.py\n    M 87:4 Predictor.predict - B (8)\n    C 78:0 Predictor - B (6)\n    F 62:0 download_weights - A (4)\n    F 54:0 download_json - A (3)\n    F 148:0 load_image - A (3)\n    M 79:4 Predictor.setup - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\conversation.py\n    M 32:4 Conversation.get_prompt - D (30)\n    C 19:0 Conversation - B (8)\n    M 112:4 Conversation.process_image - B (7)\n    M 152:4 Conversation.get_images - A (4)\n    M 162:4 Conversation.to_gradio_chatbot - A (4)\n    M 191:4 Conversation.dict - A (4)\n    M 180:4 Conversation.copy - A (2)\n    C 9:0 SeparatorStyle - A (1)\n    M 109:4 Conversation.append_message - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\mm_utils.py\n    F 166:0 process_images - B (8)\n    F 185:0 tokenizer_image_token - B (8)\n    M 230:4 KeywordsStoppingCriteria.call_for_batch - B (6)\n    F 12:0 select_best_resolution - A (5)\n    C 215:0 KeywordsStoppingCriteria - A (5)\n    M 216:4 KeywordsStoppingCriteria.__init__ - A (5)\n    F 77:0 divide_to_patches - A (3)\n    F 119:0 process_anyres_image - A (3)\n    F 152:0 expand2square - A (3)\n    F 42:0 resize_and_pad_image - A (2)\n    F 99:0 get_anyres_image_grid_shape - A (2)\n    F 207:0 get_model_name_from_path - A (2)\n    M 243:4 KeywordsStoppingCriteria.__call__ - A (2)\n    F 148:0 load_image_from_base64 - A (1)\nE:\\fenta\\Downloads\\The ",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\predict.py - A (52.64)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\constants.py - A (90.25)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\conversation.py - A (20.15)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTREAM\\llava\\mm_utils.py - A (50.61)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_VILA\\UPSTRE"
+  }
+}
